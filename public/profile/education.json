@@ -1,19 +1,31 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
+            "title": "Jun 2020 - Jun 2024",
             "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "cardSubtitle":"National Institute of Technology, Kurukshetra",
+            "cardDetailedText": "CGPA - 8.5",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/nitlogo.png"
             }
         },
         {
-            "title": "Apr 20XX",
+            "title": "2018 - 2019",
+            "cardTitle": "Secondary School",
+            "cardSubtitle":"KMSS, Bagbazar",
+            "cardDetailedText": "Percentage - 85.25%",
+            "icon" : {
+                "src" : "images/education/kmc.png"
+            }
+        },
+        {
+            "title": "2006 - 2017",
             "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "cardSubtitle":"Little Angles' High School, Parasi",
+            "cardDetailedText": "Percentage - 90%",
+            "icon" : {
+                "src" : "images/education/LA.png"
+            }
         }
     ]
 }

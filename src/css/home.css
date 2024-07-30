@@ -1,0 +1,22 @@
+@font-face {
+    font-family:'hollywings';
+    src: url('../fonts/hollywings.otf');
+}
+
+
+.content{
+    margin-top: 135px;
+}
+.heading{
+font-family:'hollywings';
+font-size: 6em;
+}
+/* 
+.homediv{
+    background-color: aqua;
+} */
+
+/* #homediv{
+
+    background-image: linear-gradient(rgb(119, 85, 255),rgb(255, 196, 72));
+} */

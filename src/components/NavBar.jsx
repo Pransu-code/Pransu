@@ -8,8 +8,8 @@ import ThemeToggler from './ThemeToggler';
 
 const styles = {
   logoStyle: {
-    width: 50,
-    height: 40,
+    width: 3,
+    height: 1,
   },
 };
 
@@ -54,7 +54,7 @@ const NavBar = () => {
     <Navbar
       fixed="top"
       expand="md"
-      bg="dark"
+      bg="ligh"
       variant="dark"
       className="navbar-custom"
       expanded={expanded}

@@ -9,10 +9,10 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   introTextContainer: {
-    margin: 10,
+    margin: 50,
     flexDirection: 'column',
     whiteSpace: 'pre-wrap',
-    textAlign: 'left',
+    textAlign: 'justify',
     fontSize: '1.2em',
     fontWeight: 500,
   },
@@ -56,7 +56,7 @@ function About(props) {
                     {parseIntro(data.about)}
                   </Col>
                   <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
+                    <img src={data?.imageSource} width={366} height={490} alt="profile" />
                   </Col>
                 </Row>
               </Fade>

@@ -1,33 +1,27 @@
 {
-    "experiences": [
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
-            ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
-        }
-    ]
+  "experiences": [
+    {
+      "title": "Full Stack Developer",
+      "subtitle": "Fantom Starter Multichain",
+      "workType": "Internship",
+      "workDescription": [
+        " Updated the latest version of Next Js & dependencies of live podcast projects, resolving up to 20% of broken code.",
+        "Implemented responsive & interactive login page and personalized dashboard using ChakraUI & Supabase.",
+        "Integrated Cloudinary ApI for managing photos in Cloudinary, reducing app loading times by approx 10%.",
+        " Facilitated the development team in the implementation of Stripe, facilitating seamless payment procedure"
+      ],
+      "dateText": "Jan 2023 - June 2023"
+    },
+    {
+      "title": "Frontend Developer",
+      "subtitle": "GEOGO pvt ltd",
+      "workType": "Internship",
+      "workDescription": [
+        " Implemented and Executed a modular CSS architecture to enhance code maintainability and reusability.",
+        "Utilized HTML, CSS, and JS to implement figma based front-end designs and ensure cross-browser compatibility.",
+        "Administered in the integration of front-end components with the back-end using RESTful APIs."
+      ],
+      "dateText": "Nov 2021 - Jan 2022"
+    }
+  ]
 }

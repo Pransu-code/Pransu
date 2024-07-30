@@ -4,10 +4,12 @@ import Fade from 'react-reveal';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';
+// eslint-disable-next-line quotes
+import "../css/home.css";
 
 const styles = {
   nameStyle: {
-    fontSize: '5em',
+    // fontSize: '5em',
   },
   inlineChild: {
     display: 'inline-block',
@@ -35,22 +37,28 @@ function Home() {
 
   return data ? (
     <Fade>
-      <div style={styles.mainContainer}>
-        <h1 style={styles.nameStyle}>{data?.name}</h1>
-        <div style={{ flexDirection: 'row' }}>
-          <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
-          <Typewriter
-            options={{
-              loop: true,
-              autoStart: true,
-              strings: data?.roles,
-            }}
-          />
+      <div className="homediv">
+        <div className="content" style={styles.mainContainer}>
+          <h1 className="heading" style={styles.nameStyle}>
+            {data?.name}
+          </h1>
+          <div style={{ flexDirection: 'row' }}>
+            <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
+            <Typewriter
+              options={{
+                loop: true,
+                autoStart: true,
+                strings: data?.roles,
+              }}
+            />
+          </div>
+          <Social />
         </div>
-        <Social />
       </div>
     </Fade>
-  ) : <FallbackSpinner />;
+  ) : (
+    <FallbackSpinner />
+  );
 }
 
 export default Home;
