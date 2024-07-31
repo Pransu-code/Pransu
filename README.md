@@ -2,10 +2,10 @@
 
 ## A minimal portfolio template for Developers!
 
-<h2 align="center">
+<!-- <h2 align="center">
   <img src="https://github.com/mayankagarwal09/dev-portfolio/blob/master/images/dev-portfolio.gif" alt="Dev Portfolio" />
   <br>
-</h2>
+</h2> -->
 
 ## Features
 
@@ -17,7 +17,7 @@
 
 ## Demo
 
-To view the demo: **[click here](https://dev-portfolio-mayankagarwal09.vercel.app)**
+To view the demo: **[click here]()**
 
 ## Why do you need a portfolio? ☝️
 
